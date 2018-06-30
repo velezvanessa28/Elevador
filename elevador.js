@@ -14,10 +14,11 @@ for(pisoActual; pisoActual <= ultimoPiso; pisoActual++) {
 
 }
 if (direccion === 'Bajo') {
-	pisoActual = ultimoPiso;
-for(ultimoPiso; ultimoPiso <= ultimoPiso; pisoActual--) {
+	pisoActual = 20;
+for(ultimoPiso; pisoActual >= 1; pisoActual--) {
 	console.log("Estas en el piso " + pisoActual);
-	if (ultimoPiso == pisoSeleccionado)
+	pisoActual = pisoActual;
+	if (pisoActual == pisoSeleccionado)
 	alert("Llegaste");
 	}
 }
